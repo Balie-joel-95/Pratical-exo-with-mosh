@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+        table,td,th{
+            border: 1px solid gray;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+        tfoot{
+            background-color: rgba(43, 180, 226, 0.165);
+        }
+        thead{
+            color:black;
+            background-color: bisque;
+        }
+        tbody{
+            background-color:rgb(81, 255, 0);
+        }
+        
+ 
+    </style>
+
+</head>
+  <body>
+    <h1>TABLEAU</h1>
+    <table>
+      <thead>
+        <tr>
+          <th colspan="3">DESCRIPTION</th>
+        </tr>
+        <tr id="A">
+          <th>PRODUCT</th>
+          <th>AMOUNT</th>
+          <th>%</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+        <a href="dd.html"> <td>CACAO</td></a>
+          <td>12000</td>
+          <td>60%</td>
+        </tr>
+        <tr>
+          <td>CAFFE</td>
+          <td>5000</td>
+          <td>25%</td>
+        </tr>
+        <tr>
+          <td>ANACARDE</td>
+          <td>3000</td>
+          <td>15%</td>
+        </tr>
+        <tfoot>
+            <td>TOTAL</td>
+            <td>20000</td>
+            <td>100%</td>
+        </tfoot>
+      </tbody>
+    </table>
+    
+  </body>
+</html>
