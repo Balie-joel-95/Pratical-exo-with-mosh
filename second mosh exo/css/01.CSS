@@ -1,14 +1,24 @@
-body{
-    margin: 10px;
+
+ul li:nth-child(3n) {
+color: deeppink;
+    }
+
+article :last-child{
+    font-weight: bold;
+}
+a:visited{
+    color: red;
 }
 
-p.first{
-    font-size: 140%;
-    font-style: italic;
+a:hover, a:focus{
+  color: deeppink;  
 }
-
-ul li:nth-child(odd) {
-    color: deeppink;
-    
-
+h2::first-letter{
+    color: red;
+}
+P.FIRST::first-letter{
+    color: aqua;
+}
+P::selection{
+    background-color: bisque;
 }
