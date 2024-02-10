@@ -1,0 +1,30 @@
+.joel {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  background-color: tomato;
+  margin-left: 100px;
+  margin-top: 200px;
+}
+.joel {
+  box-shadow: 0 0 30px 10px;
+}
+
+body {
+  background-color: aqua;
+}
+
+.take {
+  width: 0;
+  height: 0px;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-top: 200px solid rgb(255, 162, 0);
+  background-color: tomato;
+}
+
+.take {
+  margin-left: 500px;
+  margin-top: -200px;
+  box-shadow: 0 0 30px 10px;
+}
